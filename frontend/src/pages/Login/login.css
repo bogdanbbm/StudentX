@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Just+Me+Again+Down+Here&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container-login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+.title-login {
+    font-family: "Just Me Again Down Here";
+    font-size: 128px;
+    line-height: 100px;
+    text-align: center;
+}
+
+.subtitle-login {
+    font-family: "Just Me Again Down Here";
+    font-size: 48px;
+    text-align: center;
+}
+
+.login-box {
+    width: 602px;
+    height: 455px;
+    flex-shrink: 0;
+    
+    border: 4px solid #000;
+    background: #F3F3F3;
+    box-shadow: 42px 38px 4px 0px rgba(0, 0, 0, 0.35);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.form-login {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.label-login {
+    color: #000;
+    font-family: "Just Me Again Down Here";
+    font-size: 48px;
+    text-align: left;
+}
+
+.input-login {
+    width: 437px;
+    height: 50px;
+    flex-shrink: 0;
+
+    border: 4px solid #000;
+    background: #FFF;
+
+    color: #000;
+    font-family: "Just Me Again Down Here";
+    font-size: 48px;
+}
+
+.href-login {
+    color: #707070;
+    font-family: "Just Me Again Down Here";
+    font-size: 35px;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.href-login:hover {
+    color: #000;
+}
+
+.button-login {
+    width: 200px;
+    height: 59px;
+    flex-shrink: 0;
+
+    background-color: #FFF;
+    border: 3px solid #000;
+    background: #FFF;
+
+    margin: 0 auto;
+    margin-top: 20px;
+
+    color: #000;
+    text-align: center;
+    font-family: "Just Me Again Down Here";
+    font-size: 45px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transform: rotate(11.909deg);
+    cursor: pointer;
+}
+
+.button-login:hover {
+    background-color: #000;
+    color: #FFF;
+    border-color: #FFF;
+}

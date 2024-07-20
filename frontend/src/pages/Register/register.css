@@ -1,0 +1,35 @@
+.container-register {
+    width: 602px;
+    height: 336px;
+    flex-shrink: 0;
+
+    border: 4px solid #000;
+    background: #F3F3F3;
+    box-shadow: 42px 38px 4px 0px rgba(0, 0, 0, 0.35);
+
+    margin: 50px auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Just Me Again Down Here';
+}
+
+.user-type-item {
+    font-size: 50px;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+.user-type-item:hover {
+    color: #575757;
+}
+
+.select-users {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #000;
+    font-family: "Just Me Again Down Here";
+    font-size: 30px;
+}

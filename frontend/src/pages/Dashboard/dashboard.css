@@ -1,0 +1,146 @@
+.container-dashboard {
+    display: flex;
+}
+
+.sidebar {
+    width: 388px;
+    height: 99vh;
+    border: 0.5vh solid #000;
+    background: #F3F3F3;
+  }
+  
+  .sidebar-header {
+    color: #000;
+    text-align: center;
+    font-family: "Just Me Again Down Here";
+    font-size: 60px;
+    cursor: pointer;
+  }
+  
+  .sidebar-menu {
+    list-style-type: none;
+    padding: 0;
+}
+  
+  .sidebar-menu li {
+    margin-bottom: 15px;
+    margin-left: 55px;
+    font-family: "Just Me Again Down Here";
+    font-size: 45px;
+  }
+
+  .sidebar-menu li:hover {
+    color: #575757;
+    cursor: pointer;
+  }
+
+.section-dashboard {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-funfact {
+    height: 100%;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+    font-family: "Just Me Again Down Here";
+    font-size: 40px;
+}
+
+.section-users {
+    border: 4px solid #000;
+    background: #F3F3F3;
+    box-shadow: 42px 38px 4px 0px rgba(0, 0, 0, 0.35);
+}
+
+.section-users table {
+    min-width: 60%;
+    border-collapse: collapse;
+    text-align: center;
+    font-family: "Just Me Again Down Here";
+    font-size: 35px;
+
+}
+
+.section-users table thead tr {
+    background-color: #727272;
+    color: #ffffff;
+}
+
+.section-users table th,
+.section-users table td {
+    padding: 10px 30px;
+}
+
+.button-users {
+    min-width: 130px;
+    height: 50px;
+    flex-shrink: 0;
+
+    background-color: #FFF;
+    border: 3px solid #000;
+    background: #FFF;
+
+    margin: 20px auto;
+
+    color: #000;
+    text-align: center;
+    font-family: "Just Me Again Down Here";
+    font-size: 35px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transform: rotate(3deg);
+    cursor: pointer;
+}
+
+.button-users:hover {
+    background-color: #000;
+    color: #FFF;
+    border-color: #FFF;
+}
+
+.form-container {
+    margin: 20px;
+    padding: 20px;
+    border: 4px solid #000;
+    background: #F3F3F3;
+    box-shadow: 10px 10px 4px 0px rgba(0, 0, 0, 0.35);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-container h3 {
+    font-family: "Just Me Again Down Here";
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.form-container input {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #000;
+    font-family: "Just Me Again Down Here";
+    font-size: 30px;
+}
+
+.form-container input:focus {
+    border-color: #575757;
+    outline: none;
+}
+
+.form-container .button-users {
+    margin-top: 20px;
+}
+

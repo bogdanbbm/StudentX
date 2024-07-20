@@ -1,0 +1,60 @@
+.feedback-form {
+    border: 4px solid #000;
+    background: #F3F3F3;
+    box-shadow: 42px 38px 4px 0px rgba(0, 0, 0, 0.35);
+    width: 50%;
+    margin: 0 auto;
+    font-family: 'Just Me Again Down Here';
+}
+
+.feedback-form label {
+    display: block;
+    font-size: 40px;
+    margin-left: 25px;
+}
+
+.feedback-form h2 {
+    font-size: 50px;
+    text-align: center;
+
+}
+
+.feedback-form select,
+.feedback-form input[type="text"],
+.feedback-form textarea {
+    max-width: 60%;
+    min-width: 60%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-left: 25px;
+    font-family: 'Just Me Again Down Here';
+    font-size: 25px;
+}
+
+.feedback-form .rating {
+    margin-bottom: 10px;
+    display: flex;
+    margin-left: 25px;
+}
+
+.feedback-form .rating label {
+    display: flex;
+    color: #888;
+    margin-right: 15px;
+    margin-left: 5px;
+}
+
+.feedback-form .checkboxes {
+    margin-bottom: 10px;
+    display: flex;
+    margin-left: 25px;
+}
+
+.feedback-form .checkboxes label {
+    display: inline-block;
+    margin-right: 15px;
+    margin-left: 5px;
+    color: #888;
+}
